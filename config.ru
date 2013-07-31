@@ -1,0 +1,3 @@
+require './buildmemes'
+
+BuildMemes.run!
