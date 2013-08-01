@@ -3,6 +3,9 @@ require 'sinatra/base'
 
 class BuildMemes < Sinatra::Base
 
+  get '/' do
+    erb :index
+  end
 
   get '/p' do
     @@pass_images ||= Dir.glob('public/pass/*').map{|x| x.split('/',2)[1]}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+	<title>Build Memes</title>
+	<style>
+		img {
+			width: 200px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Build Memes</h1>
+	<p>Need an image to illustrate your failing build? Have no fear:</p>
+	<pre>
+		<code>
+&lt;img src='<%= request.base_url %>/f'&gt;
+		</code>
+	</pre>
+	<img src='<%= request.base_url %>/f'>
+	<p>If the unthinkable has happened, and your build passes? Whatever:</p>
+	<pre>
+		<code>
+&lt;img src='<%= request.base_url %>/p'&gt;
+		</code>
+	</pre>
+	<img src='<%= request.base_url %>/p'>	
+</body>
