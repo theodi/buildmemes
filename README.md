@@ -20,6 +20,6 @@ Usage
 
 ```
 bundle
-rackup config.ru
-open http://localhost:4567
+foreman start
+open http://localhost:5000
 ```
