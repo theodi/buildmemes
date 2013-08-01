@@ -1,6 +1,5 @@
 require 'sinatra/base'
 
-
 class BuildMemes < Sinatra::Base
 
   get '/' do
@@ -18,5 +17,3 @@ class BuildMemes < Sinatra::Base
   end
   
 end
-
-BuildMemes.run!

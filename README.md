@@ -14,3 +14,12 @@ full details.
 
 The images, however, are stolen from all over the place and shouldn't be 
 considered as open content. Attribution to follow where we can.
+
+Usage
+-----
+
+```
+bundle
+rackup config.ru
+open http://localhost:4567
+```
