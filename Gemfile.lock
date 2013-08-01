@@ -11,6 +11,7 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+    rake (10.1.0)
     rspec (2.13.0)
       rspec-core (~> 2.13.0)
       rspec-expectations (~> 2.13.0)
@@ -32,5 +33,6 @@ PLATFORMS
 DEPENDENCIES
   foreman
   rack-test
+  rake
   rspec
   sinatra
