@@ -16,7 +16,7 @@ GEM
     foreman (0.77.0)
       dotenv (~> 1.0.2)
       thor (~> 0.19.1)
-    gh (0.13.2)
+    gh (0.14.0)
       addressable
       backports
       faraday (~> 0.8)
