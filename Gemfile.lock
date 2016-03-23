@@ -79,3 +79,6 @@ DEPENDENCIES
   rspec
   sinatra
   travis
+
+BUNDLED WITH
+   1.11.2
