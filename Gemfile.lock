@@ -21,7 +21,7 @@ GEM
       net-http-persistent (>= 2.7)
       net-http-pipeline
     highline (1.7.8)
-    json (2.0.1)
+    json (2.0.2)
     launchy (2.4.3)
       addressable (~> 2.3)
     multi_json (1.12.1)
